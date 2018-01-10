@@ -8,5 +8,8 @@ elseif n % 3 == 0
 elseif
 n % 5 == 0
 "Buzz"
+
+else n % 3 && n % 5 != 0
+  nil
 end
 end
