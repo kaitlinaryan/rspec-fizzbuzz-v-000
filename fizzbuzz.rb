@@ -1,5 +1,7 @@
+require_relative './fizzbuzz_spec.rb'
+
 def fizzbuzz
-if
+  if
 i % 3 == 0 && i % 5 == 0
 "FizzBuzz"
 
