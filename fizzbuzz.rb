@@ -1,9 +1,8 @@
 def fizzbuzz(n)
 if n % 3 == 0 && n % 5 == 0
 "FizzBuzz"
-
-else n % 3 == 0
+elsif n % 3 == 0
 "Fizz"
-
+else n n % 3 && n % 5 != 0
 end
 end
